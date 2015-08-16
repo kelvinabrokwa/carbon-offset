@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <script src='//code.jquery.com/jquery-1.11.3.min.js'></script>
+  <script src='index.js'></script>
+</head>
+<body>
+  <div>
+    <h2>Ground Transit</h2>
+    <div>
+      <div>
+        <div>Car</div>
+        <input id='carMiles' type='text' placeholder='miles traveled'/>
+        <p id='carPrice'></p>
+        <button onclick='addToCart("car")'>Add to cart</button>
+      </div>
+      <div>
+        <div>Bus</div>
+        <input id='busMiles' type='text' placeholder='miles traveled'/>
+        <p id='busPrice'></p>
+        <button onclick='addToCart("bus")'>Add to cart</button>
+      </div>
+      <div>
+        <div>Train</div>
+        <input id='trainMiles' type='text' placeholder='miles traveled'/>
+        <p id='trainPrice'></p>
+        <button onclick='addToCart("train")'>Add to cart</button>
+      </div>
+    </div>
+    <button onclick='goToCart()'>Go to cart</button>
+  </div>
+</body>
+</html>
